@@ -79,15 +79,15 @@ footer{
 }
 
 
-#sidebar{
-    position:absolute;
-    bottom:30%;
-    right:35%;
+.sidebar{
+    
     width:280px;
-    background-color:grey;
+    background-color:gray;
     background:transparent;
-    font-color:black;
+    color:black;
     font-style:italic;
+    float:right;
+    margin:20px;
     
     
 }

@@ -11,15 +11,16 @@ html{
     max-height:100%;
     background-image: url(full-page-typewriter.jpg);
     background-size:cover;
-    background-repeat:repeat-none;
-    background-size:100%;
+    background-repeat:no-repeat;
+   .active{
+       
+   }
     
 }
 
 h1{
     font-family:bodoni;
     font-size:120px;
-    font-style:bold;
     max-width:540px;
     padding:10px;  
     color:white;

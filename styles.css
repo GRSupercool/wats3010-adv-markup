@@ -33,3 +33,21 @@ Table{
     padding:5px;
     
 }
+
+/*about weight*/
+dt{
+    font-weight:500;
+    
+}
+.bio-photo{
+    width:25%;
+    background:grey;
+    float:left;
+    margin:10px;
+    padding:5px;
+    
+}
+.bio-photo-img{
+    width:100%;
+    height:auto;
+}

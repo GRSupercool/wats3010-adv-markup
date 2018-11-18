@@ -6,6 +6,7 @@ html{
     margin:50px;
     padding:5px 20px;
     background:#45a29e;
+    font:helvetica;
     
 }
 /*Navigation Styles*/
@@ -14,6 +15,7 @@ nav ul li{
     padding:30px;
     border:solid 1px transparent;
     transition:0.8s ease;
+    font:Hevetica;
     
 }
    nav ul li:hover{
@@ -42,7 +44,7 @@ Table{
     width:25%;
     margin:10px;
     padding:5px;
-    font:center;
+    font:italics;
     border:solid 1px black
    
     
@@ -72,6 +74,7 @@ dt{
 #content p{
     text-decoration:none;
     font: black;
+    font:helvetica;
 }
 
 
@@ -92,5 +95,6 @@ p{
 }
 ul.poem{
     list-style-type:none;
+    font:helvetica;
     
 }

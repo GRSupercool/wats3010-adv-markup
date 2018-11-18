@@ -1,12 +1,25 @@
 /* Styles for the indez.html Home Page */
 
+html{
+    height:50%;
+    width:50%;
+    margin:50px;
+    padding:5px 20px;
+    background:#45a29e;
+    
+}
 /*Navigation Styles*/
 nav ul li{
     display:inline;
-    padding:10px;
-    border:solid 1px black;
+    padding:30px;
+    border:solid 1px transparent;
+    transition:0.8s ease;
     
 }
+   nav ul li:hover{
+       background-color:white;
+       color:black;
+   }
    
 .active{
     font-weight:900;
@@ -23,25 +36,26 @@ Table{
 }
 
 
-
 /*Sidebar Styles*/
 #sidebar{
     float:right;
     width:25%;
-    background:grey;
     margin:10px;
     padding:5px;
+    font:center;
+    border:solid 1px black
+   
     
 }
 
-/*about weight*/
+/*About Styles*/
 dt{
     font-weight:500;
     
 }
 .bio-photo{
     width:25%;
-    background:grey;
+    background:black;
     float:left;
     margin:10px;
     padding:5px;
@@ -50,4 +64,33 @@ dt{
 .bio-photo-img{
     width:100%;
     height:auto;
+
+}
+
+
+
+#content p{
+    text-decoration:none;
+    font: black;
+}
+
+
+/*Homepage styles*/
+
+h1{
+    font-size:100px;
+    font-family:glober;
+    color:black;
+}
+h2{
+    color:black;
+}
+p{
+    font-family:helvetica;
+    color:black
+    
+}
+ul.poem{
+    list-style-type:none;
+    
 }
